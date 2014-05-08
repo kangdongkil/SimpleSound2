@@ -3,7 +3,7 @@ $(document).ready(function() {
 		$(this).toggleClass("state1");
 		$(this).toggleClass("state2");
 
-		$("#Sound")[0].load();
-		$("#Sound")[0].play();
+		$("#sound")[0].load();
+		$("#sound")[0].play();
 	});
 });
